@@ -2,34 +2,79 @@
 <html lang="en">
 
 <head>
+    <meta charset=utf-8">
+    <title>Forms</title>
+</head>
+
 <body>
+    <h1>Форма заявки на работу в зоопарке</h1>
+    <p><em>Пожалуйста, заполните форму. Обязательные поля помечены *</em></p>
     <form action="http://fe.it-academy.by/TestForm.php" method="get">
         <fieldset>
             <legend>Контактная информация</legend>
-            <label>Имя *<input type="text"></label><br>
-                   <label>Телефон <input type="number"></label><br>
-                   <label>Email * <input type="email"></label>
+            <table>
+                <tr>
+                    <td width="100"><label for="firstname">Имя *</label></td>
+                    <td><input type="text" name="firstname" id="firstname"></td>
+                </tr>
+                <tr>
+                    <td><label for="phonenumber">Телефон</label></td>
+                    <td><input type="number" name="phonenumber" id="phonenumber"></td>
+                </tr>
+                <tr>
+                    <td><label for="custemail">Email *</label></td>
+                    <td><input type="email" name="custemal" id="custemail"></td>
+                </tr>
+            </table>
         </fieldset>
         <fieldset>
-            <legend>Персональная информация</legend>
-            <label>Возраст * <input type="text"></label><br>
-            <label>Пол <select name="sel1">
-                <option value="sel1">Мужчина</option>
-                <option value="sel2">Женщина</option>
-            </select></label><br>
-            <label>Перечислите <br> личные <br> качества <textarea name="qualities"  cols="30" rows="10"></textarea></label>
+            <table>
+                <legend>Персональная информация</legend>
+                <tr>
+                    <td width="100"><label for="age">Возраст * </label></td>
+                    <td><input type="text" id="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="sel1">Пол</label></td>
+                    <td>
+                    <select name="sel1" id="sel1">
+                        <option value="sel1">Мужчина</option>
+                        <option value="sel2">Женщина</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="qualities">Перечислите личные качества</label></td>
+                    <td><textarea name="qualities" cols="100%" rows="10" id="qualities"></textarea></td>
+                </tr>
+            </table>
+            
         </fieldset>
         <fieldset>
             <legend>Выберите ваших любимых животных</legend>
-            <label><input type="checkbox" name="animal[]" value="ani1">Зебра</label>
-            <label><input type="checkbox" name="animal[]" value="ani2">Кошка</label>
-            <label><input type="checkbox" name="animal[]" value="ani3">Антилопа</label>
-            <label><input type="checkbox" name="animal[]" value="ani4">Человек</label><br>
-            <label><input type="checkbox" name="animal[]" value="ani5">Слон</label>
-            <label><input type="checkbox" name="animal[]" value="ani6">Мышь</label>
-            <label><input type="checkbox" name="animal[]" value="ani7">Голубь</label>
-            <label><input type="checkbox" name="animal[]" value="ani8">Краб</label>
+            <table>
+                <tr>
+                    <td><input type="checkbox" name="animal[]" value="anim1" id="anim1"></td>
+                    <td><label for="anim1">Зебра</label></td>
+                    <td><input type="checkbox" name="animal[]" value="anim2" id="anim2"></td>
+                    <td><label for="anim2">Кошка</label></td>
+                    <td><input type="checkbox" name="animal[]" value="anim3" id="anim3"></td>
+                    <td><label for="anim3">Антилопа</label></td>
+                    <td><input type="checkbox" name="animal[]" value="anim4" id="anim4"></td>
+                    <td><label for="anim4">Человек</label></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="animal[]" value="anim5" id="anim5"></td>
+                    <td><label for="anim5">Слон</label></td>
+                    <td><input type="checkbox" name="animal[]" value="anim6" id="anim6"></td>
+                    <td><label for="anim6">Мышь</label></td>
+                    <td><input type="checkbox" name="animal[]" value="anim7" id="anim7"></td>
+                    <td><label for="anim7">Голубь</label></td>
+                    <td><input type="checkbox" name="animal[]" value="ani8m" id="anim8"></td>
+                    <td><label for="anim8">Краб</label></td>
+                </tr>
+            </table>
         </fieldset>
+        <br>
         <input type="submit" value="Отправить">
     </form>
 </body>
