@@ -1,0 +1,19 @@
+div {
+    text-align: left;
+    
+}
+.cap {
+    text-align: right;
+    line-height: 0%;
+}
+.content {
+    font-family: 'Bad Script', cursive;
+    text-indent: 5%; }
+
+.emphasize {
+    text-decoration: underline;
+
+}
+.end {
+    color: black;
+}
