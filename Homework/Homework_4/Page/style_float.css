@@ -18,7 +18,8 @@
     background-color: #aaa;
     margin-bottom: 0.2em;
     margin-left: 15em;
-    padding: .1em;
+    padding: 5px;
+    overflow: hidden;
 }
 
 .footer {
@@ -26,4 +27,9 @@
     background-color: #ccc;
     height: max-content;
     clear: both;
+}
+img {
+    width:100px;
+    height:100px;
+    float: right; 
 }
