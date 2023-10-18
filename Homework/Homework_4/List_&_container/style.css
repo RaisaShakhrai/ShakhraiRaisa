@@ -7,7 +7,7 @@ ul {
     list-style-type: lower-roman;
 }
 
-div {
+.wrapper {
     background-color:black;
     color: green;
     width: 400px;
