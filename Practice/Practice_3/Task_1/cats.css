@@ -1,0 +1,22 @@
+div {
+    width: 350px;
+    height: 245px;
+    background-image: url(cats.gif);
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+.cat_1 {
+    background-position-x: -40px;
+    background-position-y: 240px;
+}
+
+.cat_2 {  
+    background-position-x: -40px;
+    background-position-y: 730px;
+}
+.cat_3 {
+    background-position-x: -40px;
+    background-position-y: -510px;
+}

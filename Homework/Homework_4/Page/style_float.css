@@ -1,0 +1,29 @@
+.menu {
+    width: 15em;
+    background-color: #ccc;
+    float: left;
+
+}
+
+.wrap {
+    background-color: #dbdbdb;
+}
+
+.clear {
+    clear: both;
+}
+
+.artical {
+    min-height: 120px;
+    background-color: #aaa;
+    margin-bottom: 0.2em;
+    margin-left: 15em;
+    padding: .1em;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ccc;
+    height: max-content;
+    clear: both;
+}
