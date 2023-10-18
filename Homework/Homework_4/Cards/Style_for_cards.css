@@ -1,0 +1,41 @@
+div {
+    background-image: url(cards.png);
+    background-color: white;
+    width: 140px;
+    height: 190px;
+
+}
+
+.card_1 {
+    background-position-y: -600px;
+}
+
+.card_2 {
+    background-position-x: 710px;
+    background-position-y: 783px;
+}
+
+.card_3 {
+    background-position-x: 283px;
+    background-position-y: 1180px;
+}
+
+.card_4 {
+    background-position-x: 425px;
+    background-position-y: 385px;
+}
+
+.card_5 {
+    background-position-x: 280px;
+    background-position-y: 188px;
+}
+
+.open_cards {
+    float: left;
+    margin: 10px;
+}
+
+.close_cards {
+    float: left;
+    margin-right: -140px;
+}
