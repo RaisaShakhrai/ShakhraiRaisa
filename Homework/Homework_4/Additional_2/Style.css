@@ -1,6 +1,7 @@
 
 .container {
-    color: #f33030;
+    font-family: 'Bad Script';
+    color: #ff7f02;
     display: flex;
     flex-direction: column;
     gap: .2em;
@@ -40,6 +41,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding: 2em;
 }
 
 ul {
@@ -52,8 +54,6 @@ li{
     list-style: none;
 }
 img {
-    width: 100px;
-    height: 100px;
     align-self: self-end; /* Чтобы только картинка сместилась*/
     
 }

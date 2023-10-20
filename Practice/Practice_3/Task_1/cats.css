@@ -1,7 +1,7 @@
 div {
-    width: 350px;
-    height: 245px;
-    background-image: url(cats.gif);
+    width: 300px;
+    height: 230px;
+    background-image: url(cats.jpg);
     float: left;
     margin-bottom: 20px;
 
@@ -13,10 +13,10 @@ div {
 }
 
 .cat_2 {  
-    background-position-x: -40px;
-    background-position-y: 730px;
+    background-position-x: 270px;
+    background-position-y: 770px;
 }
 .cat_3 {
-    background-position-x: -40px;
-    background-position-y: -510px;
+    background-position-x: 550px;
+    background-position-y: -270px;
 }
