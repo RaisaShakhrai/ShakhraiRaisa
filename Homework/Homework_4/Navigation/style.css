@@ -5,8 +5,10 @@
 
 .none {
     width: 130px;
+    height: 30px;
     background-color: #818181;
     color: #d3d3d3;
+    text-align: center;
     border: solid black 1px;
     border-radius: 5px;
     position: relative;
@@ -15,8 +17,10 @@
 
 .choice {
     width: 130px;
+    height: 30px;
     background-color: #818181;
     color: #d3d3d3;
+    text-align: center;
     border: solid black 1px;
     border-radius: 5px;
     position: relative;
@@ -24,7 +28,20 @@
 }
 
 .MenuLevel2 {
-    display: none
+    width: 130px;
+    display: block;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    z-index: 1;
+}
+
+.add {
+    overflow: hidden;
+    height: 0;
+    color: #d3d3d300;
+    transition: height 0.3s ease;
+
 }
 
 .choice:hover {
@@ -33,22 +50,30 @@
 }
 
 .choice:hover .add {
+    display: block;
+    width: 130px;
+    height: 30px;
     background-color: #818181;
     color: #d3d3d3;
+    text-align: center;
     border: solid black 1px;
     border-radius: 5px;
     cursor: pointer;
+
+
 
 }
 
 .choice:hover .MenuLevel2 {
 
     width: 130px;
+    height: 90px;
     display: block;
     position: absolute;
     left: 0%;
     top: 100%;
-    z-index: 1
+    z-index: 1;
+
 }
 
 
@@ -62,44 +87,6 @@
         flex-direction: column;
     }
 
-    .none {
-        width: 130px;
-        background-color: #818181;
-        color: #d3d3d3;
-        border: solid black 1px;
-        border-radius: 5px;
-        position: relative;
-        cursor: pointer
-    }
-
-    .choice {
-        width: 130px;
-        background-color: #818181;
-        color: #d3d3d3;
-        border: solid black 1px;
-        border-radius: 5px;
-        position: relative;
-        cursor: pointer
-    }
-
-    .MenuLevel2 {
-        display: none
-    }
-
-    .choice:hover {
-        background-color: #d3d3d3;
-        color: #818181;
-    }
-
-    .choice:hover .add {
-        background-color: #818181;
-        color: #d3d3d3;
-        border: solid black 1px;
-        border-radius: 5px;
-        cursor: pointer;
-
-    }
-
     .choice:hover .MenuLevel2 {
 
         width: 130px;
@@ -109,6 +96,7 @@
         top: 0%;
         z-index: 1
     }
+
 
 
 
