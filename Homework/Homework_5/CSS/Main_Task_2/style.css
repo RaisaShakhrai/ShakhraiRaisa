@@ -19,9 +19,16 @@ tr:nth-child(n+2):nth-child(odd){
     background-color: rgba(128, 128, 128, 0.315);
 }
 tr:nth-child(n+2) {
-    border:3px dotted gray;
     text-align: left;
+    border-bottom:3px dotted gray;
  
+}
+tr:nth-child(n+2) td:nth-child(n){
+    border-left:3px dotted gray;
+    border-bottom:3px dotted gray;
+}
+tr:nth-child(n+2) th:nth-child(n){
+    border-bottom:3px dotted gray;
 }
 tr:nth-child(n):hover{
     background-color: aqua;
