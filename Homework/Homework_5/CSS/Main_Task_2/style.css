@@ -1,0 +1,28 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.wrap {
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+caption{
+    text-transform: uppercase;
+    caption-side: bottom;
+}
+
+tr:first-child{
+    background-color: gray;
+}
+tr:nth-child(n+2):nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.315);
+}
+tr:nth-child(n+2) {
+    border:3px dotted gray;
+    text-align: left;
+ 
+}
+tr:nth-child(n):hover{
+    background-color: aqua;
+}
