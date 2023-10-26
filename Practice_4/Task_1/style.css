@@ -1,0 +1,40 @@
+body>p a {
+    color: gray;
+}
+div>span a{
+    color:black;
+}
+div>p>em a{
+    color: yellow;
+}
+body>div>ul>li>a{
+    color: red;
+}
+body>div>ul span>a{
+    color: green;
+}
+body>div>ul em>a{
+    color:blue;
+}
+body>ul>li>a{
+    color:orange;
+}
+body>ul>li>span>a{
+    color: rosybrown;
+}
+body>ul em>a{
+    color: violet;
+}
+div + ul p>em>a{
+    color: aqua;
+}
+li+li>div>ul em>a{
+    color: chocolate;
+}
+li+li>span>a{
+    color:brown;
+}
+ul+p>a{
+    background-color: black;
+    color: whitesmoke;
+}
