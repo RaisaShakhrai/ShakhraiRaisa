@@ -1,0 +1,45 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+.wrap {
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+caption{
+    text-transform: uppercase;
+    caption-side: bottom;
+}
+
+tr:first-child{
+    background-color: gray;
+}
+tr:nth-child(n+2):nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.315);
+}
+tr:nth-child(n+2) {
+    text-align: left;
+    border-bottom:3px dotted gray;
+ 
+}
+tr:nth-child(n+2) td:nth-child(n){
+    border-left:3px dotted gray;
+    border-bottom:3px dotted gray;
+}
+tr:nth-child(n+2) th:nth-child(n){
+    border-bottom:3px dotted gray;
+}
+tr:nth-child(n):hover{
+    background-color: rgba(0, 255, 255, 0.116);
+}
+button{
+    width:fit-content;
+    border:3px solid rgb(90, 175, 231);
+    border-radius: 3px;
+    box-shadow: 10px;
+    height: 30px;
+    background-color:rgb(0, 47, 255);
+    color: white;
+    padding: 3px;
+}
